@@ -103,13 +103,16 @@ This is a commonly used benchmark dataset for graph machine learning.
 
 ---
 
-## 🔧 **Technologies Used**
+## 🛠️ Technologies Used
 
-- **Python**
-- **NumPy / SciPy**
-- **PyTorch / PyTorch Geometric**
-- **Matplotlib**
-- **Jupyter Notebook**
+|         Category        |             Tools            |
+| ----------------------- |:----------------------------:|
+| Programming Languages   | Python 3.12, PyTorch         |
+| Graph Learning          | PyTorch Geometric            |
+| Optimization            | Optuna                       |
+| Visualization           | Matplotlib, Seaborn          |
+| Preprocessing           | NumPy, Pandas, Scikit-learn  |
+| Environment             | Google Colab, VS Code , Github       |
 
 ---
 
@@ -124,16 +127,37 @@ After completing this project, you will understand:
 
 ---
 
+## 🚀 Applications
+* Social network analysis
+* Automated content classification
+* Influence detection
+* Community structure analysis
+* Recommendation systems
+* Political or organizational group detection
+  
+---
+
 ## 📌 **Future Improvements**
 
-- Add Graph Attention Network (GAT)  
-- Implement GraphSAGE  
-- Perform hyperparameter tuning  
-- Visualize embeddings (t-SNE / PCA)
+* Evaluate the GCN model on other social network datasets to test performance across different graph structures.
+* Compare results between datasets to check model robustness and generalizability.
+* Analyze how the model adapts to varying node features and connectivity patterns.
+* Improve architecture with advanced GNN variants such as GraphSAGE, GAT, or GCNII.
+* Explore scalability for large-scale real-world social network applications.
 
 ---
 
-## 🤝 **Contributing**
+## 🏁 Conclusion
+The project successfully demonstrates that a Graph Convolutional Neural Network (GCNN) can effectively classify Facebook pages by leveraging both node features and the underlying network structure. Through proper data preprocessing, graph construction, and hyperparameter tuning using Optuna, the model achieved strong and stable performance with a final test accuracy of around 73%. The evaluation metrics-including ROC–AUC, confusion matrix, and accuracy curves—show that the model generalizes well across classes and captures meaningful relationships in the graph. Overall, the work highlights the power of graph-based deep learning for real-world social network analysis and classification tasks.
 
-Feel free to submit issues or pull requests to improve the project.
+---
+
+## 👥 Contributors
+
+| Name | GitHub | LinkedIn |
+|------|--------|----------|
+| Arnab Paul | [![GitHub](https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=white)](https://github.com/arnabpaul873-star) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arnab-paul-927930253/) |
+| Utkarsh Abhishek | [![GitHub](https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=white)](https://github.com/TheDesperateCoder) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarsh-a-a1194911b/) |
+| Md Akif Sk | [![GitHub](https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=white)](https://github.com/786akifsk) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-akif-sk-4743461b7/) |
+| Deeparghya Ghosh | [![GitHub](https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=white)](https://github.com/Deep8095) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](LINK) |
 
