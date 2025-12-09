@@ -1,4 +1,4 @@
-# 📘 Graph Convolutional Neural Network (GCN)
+# 📘 An Optuna-Tuned Graph Convolutional Neural Network for Facebook Page–Page Node Classification
 ### **Node Classification on the Facebook Page–Page Graph**
 
 This project applies a **Graph Convolutional Neural Network (GCN)** to perform **node classification** on the **Facebook Page–Page graph**.
